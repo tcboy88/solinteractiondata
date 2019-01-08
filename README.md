@@ -1,5 +1,7 @@
-# solinteractiondata
-Dataset for Exploring Tangible Interactions with Radar Sensing published in the Journal Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies  Volume 2 Issue 4, December 2018 Article No. 200 https://dl.acm.org/citation.cfm?id=3287078
+# Solinteraction data
+This is dataset for 
+Exploring Tangible Interactions with Radar Sensing 
+published in the Journal Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies  Volume 2 Issue 4, December 2018 Article No. 200 https://dl.acm.org/citation.cfm?id=3287078
 
 In Soli chip there are 2 Tx and 4 Rx antennas so in total there are 8 channels of raw radar signals, each channel has 64 data points. For simplicity, it is saved in one row of 512 inside a CSV file.The header is just a1-a64, then b1-b64 and so on indicating each channel. The last column is the class label.
 
